@@ -4,6 +4,7 @@ on:
     types: [ opened, synchronize, reopened ]
   schedule:
   - cron: '0 12 * * 1'
+  workflow_dispatch:
 
 jobs:
   sdist:
